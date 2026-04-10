@@ -6,16 +6,18 @@ int main() {
     scanf("%d", &n);
     int i = 2;
     printf("%d = ",n);
+    if (n < 2)
+        printf("%d", n);
     while (n >= i * i) {
         if (n % i == 0) {
             n = n / i;
-            printf("* %d", i);
+            printf("%d *", i);
         }
         else
             i++;
 
     }
     if (n > 1)
-        printf("* %d", n);
+        printf("%d", n);
     return 0;
 }
