@@ -1,1 +1,6 @@
-.vs/ 
+ AppData/
+Downloads/
+OneDrive/
+miniconda3/
+.gradle/
+.vscode/
